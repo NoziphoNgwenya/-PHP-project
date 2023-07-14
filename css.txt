@@ -1,0 +1,55 @@
+<doctype html>
+<html lang ="en">
+<head>
+<title>FIND PLUMBER</title>
+<meta charset= "utf-8">
+<meta name= "view" content= "width= device-width, initial-scale=1">
+<style>
+{*box-sizing: border-box;}
+body{font family: Arial, heiveticia, sans-serif;}
+
+
+.header{
+			background-colour: grey;
+			padding: 3px;
+			text-align:center
+			font-size: 35px;
+
+}
+
+.column{
+			float:left;
+			padding:10px;
+			height:300px;
+
+}
+
+
+.column.side{width: 25%;}
+
+.column.side{width:50%;}
+
+.row.after{
+			content:"";
+			display:table;
+			clear:both;
+}
+
+.footer{
+			background-colour:grey;
+			padding:10px;
+			text-align:center;
+}
+
+@media(max width:600px;){
+.column.side, column.middle{width:100px;}
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+</html>

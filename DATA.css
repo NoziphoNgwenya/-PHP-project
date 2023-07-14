@@ -1,0 +1,119 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-image:url("MOCKUP.jpg");
+    background-position: center;
+}
+
+header{
+    width: 90%;
+    height: 10%;
+    background-color: black;
+    text-align: center;
+    margin-left:70px;
+    margin-top:50px;
+    border: solid grey;
+    
+}
+
+h1{
+    //position:relative;
+    //padding: 3px;
+    //float: left;
+    margin-left: 3%;
+    //margin-top: 10%;
+    color:grey;
+    font-size: 2.5vw;
+    text-align: center;
+    
+}
+
+ul{
+    width: auto;
+    //float: right;
+    //margin-top: 8px;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    
+}
+
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+#grey{
+    background-color: grey;
+    opacity: 0.8;
+    margin:0px 280px;
+    text-align: center;
+    height: 400px;
+}
+#grey2{
+    background-color: grey;
+    opacity: 0.8;
+    margin:100px 280px;
+    text-align: center;
+    height: 400px;
+}
+#white{
+    color: white;
+    text-align: center;
+}
+input[type=button],input[type=reset],input[type=submit]{
+    background-color: white;
+    border: none;
+    color:black;
+    padding:10px 30px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    opacity: 1;
+    font-weight: bolder;
+}
+
+form{
+    text-align: center;
+    position:inherit;
+    margin:0px 250px;
+}
+
+#form2{
+    background-color: grey;
+    opacity: 0.8;
+    margin:0px 280px;
+    text-align: center;
+    height: 100%;
+}
+#tableReg{
+    //position:absolute;
+    margin-left: 250px;
+    text-align: center;
+}
+
+table{
+    border-collapse: separate;
+    text-align: center;
+    margin-left: 35px;
+}
+table td{
+    border-bottom: 1px white;
+    padding: 5px 15px;
+    
+}
+#grey3{
+    background-color: grey;
+    opacity: 0.8;
+    margin:100px 280px;
+    text-align: center;
+    height: 400px;
+}
